@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-foundry": "^1.1.1",
+    "chai": "^4.3.4",
+    "hardhat": "^2.17.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.3.1",
+    "hardhat-deploy": "^0.11.37",
+    "hardhat-ethers": "^1.0.1",
+    "hardhat-tracer": "^3.1.0"
+  }
+}

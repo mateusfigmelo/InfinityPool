@@ -1,0 +1,18 @@
+cache
+out
+!.gitignore
+broadcast
+lib
+
+.env
+
+node_modules
+
+
+#Hardhat files
+cache
+artifacts
+cache_hardhat
+pacakage-lock.json
+.idea
+deployment/results

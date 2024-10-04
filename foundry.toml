@@ -1,0 +1,19 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc = "0.8.20"
+ignored_warnings_from = ["lib","test","src/utils/tests"]
+optimizer = true
+optimizer-runs = 200
+ffi = true
+ast = true
+build_info = true
+extra_output = ["storageLayout"]
+fs_permissions = [{ access = "read", path = "./out"}]
+
+[fmt]
+single_line_statement_blocks = "single"
+line_length = 150
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config

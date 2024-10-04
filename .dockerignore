@@ -1,0 +1,7 @@
+.idea
+.git
+artifacts
+cache
+cache_hardhat
+node_modules
+out
